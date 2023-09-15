@@ -1,0 +1,98 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+.bar {
+    background-color: #BDBDBD;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    
+    border-top: solid 1px #cdcdcd;
+    background-color: #0A2D81;
+    color: white;
+    margin: 20px;
+    text-align: center;
+}
+.foot {
+    background-color: #0A2D81;
+    
+    width: 100%;
+}
+
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+}
+
+/* ---------------------------------------------------------------*/
+
+#header {
+    background-color: #0A2D81;
+}
+.imagens {
+   align-items: center;
+}
+#rodape {
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    color: white;
+    width: 100%;
+
+}
+#rodape li {
+    text-align: center;
+}
+
+      
+
+.topics {
+   line-height: 30px;
+   margin:0px;
+    
+}
+.topics a{
+    line-height: 30px;
+    display: block;
+    margin: 0px;
+}
+
+.topics a:hover {
+    background-color: #0A2D81;
+    color: white    ;
+}
+.outras-motos{ 
+    max-width: 200px;
+    border-bottom: 1px solid #0A2D81;
+}
+img {
+    width: 350px;
+    
+}
+ul li  {
+    line-height: 50x;
+    text-transform: uppercase;
+}
